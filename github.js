@@ -25,12 +25,7 @@ class Github
 
         const profile = await profileres.json()
         const reposs = await repores.json()
-        return
-        {
-
-            profile,
-            reposs
-        }
+        return{profile,reposs}
         
         
 
