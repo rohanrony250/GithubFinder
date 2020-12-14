@@ -25,7 +25,7 @@ searchu.addEventListener('click', (e) =>
         github.getuser(usertext)
             .then(data => 
                 {
-                    if(data.profil.message === 'Not Found')
+                    if(data.profile.message === 'Not Found')
                     {
                        // show alert 
                        ui.showalert('User Not Found', 'alert alert-danger')
